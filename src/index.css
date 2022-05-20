@@ -1,13 +1,119 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+img {
+  margin: 0px;
+  padding: 0px;
+}
+
+nav {
+  height: 70px;
+  display: flex;
+  padding: 20px 36px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.nav--logo {
+  max-width: 100px;
+}
+
+section {
+  padding: 20px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero--photo {
+  max-width: 400px;
+  align-self: center;
+}
+
+.hero--header {
+  margin-bottom: 16px;
+}
+
+.hero--text {
+  margin-top: 0;
+}
+
+.card-space {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  margin:0px 20px;
+}
+
+.card-item {
+  font-family: 'Poppins';
+  font-style: normal;
+  line-height: 110%;
+}
+
+.status {
+  position: relative;
+  width: 61px;
+  left: 2px;
+  top: 30px;
+  background: #FFFFFF;
+  border-radius: 2px;
+  text-align: center;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  margin-left: 5px;
+}
+
+.card--detail {
+  display: flex;
+  justify-content: flex-start;
+  font-weight: 300;
+  font-size: 12px;
+  margin: 10px 0;
+}
+
+.card--image {
+  width: 176px;
+  height: 235px;
+  border-radius: 9px;
+}
+
+.card--star {
+  align-self: center;
+  width: 10px;
+  height: 10px;
+  border-radius: 0.5px;
+}
+
+.rating-detail {
+  align-self: center;
+  color: #918E9B;
+}
+
+.rating {
+  margin-left: 5px;
+}
+
+.card--intro {
+  align-self: center;
+  font-weight: 300;
+  font-size: 12px;
+  margin: 10px 0;
+}
+
+.card-price {
+  font-weight: 400;
+  font-size: 12px;
+  margin: 10px 0;
 }
